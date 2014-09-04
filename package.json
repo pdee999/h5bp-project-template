@@ -29,7 +29,6 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-lesslint": "^1.1.10",
     "grunt-newer": "^0.7.0",
-    "grunt-open": "^0.2.3",
     "grunt-processhtml": "^0.3.3",
     "grunt-styleguide": "^0.2.15"
   }

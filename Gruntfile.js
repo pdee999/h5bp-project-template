@@ -204,30 +204,21 @@ module.exports = function(grunt) {
             }
         },
 
-        open : {
-            dev : {
-                path: 'http://localhost:8000/',
-                app: 'Google Chrome'
-            },
-            build : {
-                path: 'http://localhost:8000/',
-                app: 'Google Chrome'
-            }
-        },
-
         watch: {
             dev: {
                 files: ['dev/**/*.{html,php}', 'dev/Gruntfile.js', 'dev/js/*.js', 'dev/less/*.less', 'dev/css/*.css'],
-                tasks: ['lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev', 'open'],
+                tasks: ['lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev', 'qunit'],
                 options: {
-                    reload: true
+                    reload: true,
+                    livereload: true
                 }
             },
             build: {
                 files: ['build/**/**'],
-                tasks: ['open'],
+                tasks: [],
                 options: {
-                    reload: true
+                    reload: true,
+                    livereload: true
                 }
             }
         },
@@ -270,7 +261,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-csslint');
     grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-open');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-compress');
