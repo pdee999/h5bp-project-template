@@ -15,10 +15,16 @@ To install the project:
 npm install
 ```
 
+To install bower:
+
+```shell
+npm install bower
+```
+
 To install dependencies:
 
 ```shell
-bower
+bower install
 ```
 
 ==========================================================================
@@ -53,84 +59,98 @@ grunt buildserve
 This project includes the following grunt tasks:
 
 **[grunt-bower](#)**
+
 To update dependencies:
 ```shell
 grunt bower
 ```
 
 **[grunt-lesslint](#)**
+
 To lint .less files:
 ```shell
 grunt lesslint
 ```
 
 **[grunt-contrib-less](#)**
+
 To compile .less files:
 ```shell
 grunt less
 ```
 
 **[grunt-autoprefixer](#)**
+
 To add vendor prefixes to css rules:
 ```shell
 grunt clean
 ```
 
 **[grunt-contrib-copy](#)**
+
 To create build environment without css/js:
 ```shell
 grunt copy
 ```
 
 **[grunt-contrib-concat](#)**
+
 To concatenate .js files:
 ```shell
 grunt concat
 ```
 
 **[grunt-contrib-uglify](#)**
+
 To minify .js files:
 ```shell
 grunt uglify
 ```
 
 **[grunt-contrib-cssmin](#)**
+
 To minify .css files:
 ```shell
 grunt cssmin
 ```
 
 **[grunt-processhtml](#)**
+
 To update css/js "src" attributes in build environment:
 ```shell
 grunt processhtml
 ```
 
 **[grunt-contrib-imagemin](#)**
+
 To optimize images:
 ```shell
 grunt imagemin
 ```
 
 **[grunt-contrib-htmlmin](#)**
+
 To minify .html files:
 ```shell
 grunt htmlmin
 ```
 
 **[grunt-contrib-jshint](#)**
+
 To lint .js files:
 ```shell
 grunt jshint
 ```
 
 **[grunt-contrib-csslint](#)**
+
 To lint .css files:
 ```shell
 grunt csslint
 ```
 
 **[grunt-contrib-connect](#)**
+
 To spin up server in dev environment:
 ```shell
 grunt connect:dev
@@ -141,6 +161,7 @@ grunt connect:build
 ```
 
 **[grunt-contrib-watch](#)**
+
 To watch files in dev environment:
 ```shell
 grunt watch:dev
@@ -151,6 +172,7 @@ grunt watch:build
 ```
 
 **[grunt-contrib-qunit](#)**
+
 To run qunit tests locally:
 ```shell
 grunt qunit:local
@@ -161,12 +183,14 @@ grunt qunit:serve
 ```
 
 **[grunt-contrib-compress](#)**
+
 To compress built project and add file to project root:
 ```shell
 grunt compress
 ```
 
 **[grunt-styleguide](#)**
+
 To create styleguide from .css files at project root:
 ```shell
 grunt styleguide

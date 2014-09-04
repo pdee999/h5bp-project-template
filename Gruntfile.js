@@ -277,7 +277,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-styleguide');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
-    grunt.registerTask('default', ['bower', 'lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev', 'qunit:local']);
+    grunt.registerTask('default', ['bower', 'lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev']);
     grunt.registerTask('serve', ['bower', 'lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev', 'connect:dev', 'watch:dev', 'qunit:serve']);
     grunt.registerTask('build', ['bower', 'lesslint', 'less', 'autoprefixer', 'csslint', 'clean:build', 'copy', 'concat', 'jshint:build', 'uglify', 'newer:imagemin', 'cssmin', 'processhtml', 'processhtml', 'htmlmin', 'clean:postbuild', 'compress', 'styleguide']);
     grunt.registerTask('buildserve', ['bower', 'lesslint', 'less', 'autoprefixer', 'csslint', 'clean:build', 'copy', 'concat', 'jshint:build', 'uglify', 'newer:imagemin', 'cssmin', 'processhtml', 'processhtml', 'htmlmin', 'clean:postbuild', 'connect:build', 'watch:build', 'qunit:serve', 'compress', 'styleguide']);
