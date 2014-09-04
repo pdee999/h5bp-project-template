@@ -207,38 +207,38 @@ grunt styleguide
 
 All work should be done inside of the dev directory.  Any edits made to the build directory will be overridden on the next build.
 
-+-- _dev
-|   +-- _css
-|   +-- _fonts
-|   +-- _img
-|   +-- _js
-|   +-- _less
-|   +-- 404.html
-|   +-- apple-touch-icon-precomposed.png
-|   +-- crossdomain.xml
-|   +-- favicon.ico
-|   +-- humans.txt
-|   +-- index.html
-|   +-- robots.txt
-+-- _build
-|   +-- _css
-|   +-- _fonts
-|   +-- _img
-|   +-- _js
-|   +-- _less
-|   +-- 404.html
-|   +-- apple-touch-icon-precomposed.png
-|   +-- crossdomain.xml
-|   +-- favicon.ico
-|   +-- humans.txt
-|   +-- index.html
-|   +-- robots.txt
-+-- _node_modules
-+-- _vendor
-+-- bower.json
-+-- Gruntfile.js
-+-- package.json
-+-- README.md
++-- _dev<br />
+|   +-- _css<br />
+|   +-- _fonts<br />
+|   +-- _img<br />
+|   +-- _js<br />
+|   +-- _less<br />
+|   +-- 404.html<br />
+|   +-- apple-touch-icon-precomposed.png<br />
+|   +-- crossdomain.xml<br />
+|   +-- favicon.ico<br />
+|   +-- humans.txt<br />
+|   +-- index.html<br />
+|   +-- robots.txt<br />
++-- _build<br />
+|   +-- _css<br />
+|   +-- _fonts<br />
+|   +-- _img<br />
+|   +-- _js<br />
+|   +-- _less<br />
+|   +-- 404.html<br />
+|   +-- apple-touch-icon-precomposed.png<br />
+|   +-- crossdomain.xml<br />
+|   +-- favicon.ico<br />
+|   +-- humans.txt<br />
+|   +-- index.html<br />
+|   +-- robots.txt<br />
++-- _node_modules<br />
++-- _vendor<br />
++-- bower.json<br />
++-- Gruntfile.js<br />
++-- package.json<br />
++-- README.md<br />
 
 ==========================================================================
 
@@ -282,9 +282,9 @@ To use CSS remove the "<!-- build:remove -->" and "<!-- /build -->" comments fro
 
 All CSS changes should be made to the *main.css* file.
 
-+-- _dev
-|   +-- _css
-|       +-- main.css
++-- _dev<br />
+|   +-- _css<br />
+|       +-- main.css<br />
 
 
 ==========================================================================
@@ -329,18 +329,18 @@ To use LESS remove the "<!-- build:remove -->" and "<!-- /build -->" comments fr
 
 All LESS changes should be made to the following less files:
 
-+-- _dev
-|   +-- _less
-|       +-- desktop.less
-|       +-- global.less
-|       +-- mixins.less
-|       +-- mobile.less
-|       +-- mobile-overrides.less
-|       +-- print.less
-|       +-- retina.less
-|       +-- screen.less
-|       +-- tablet.less
-|       +-- variables.less
++-- _dev<br />
+|   +-- _less<br />
+|       +-- desktop.less<br />
+|       +-- global.less<br />
+|       +-- mixins.less<br />
+|       +-- mobile.less<br />
+|       +-- mobile-overrides.less<br />
+|       +-- print.less<br />
+|       +-- retina.less<br />
+|       +-- screen.less<br />
+|       +-- tablet.less<br />
+|       +-- variables.less<br />
 
 ==========================================================================
 
@@ -348,8 +348,8 @@ All LESS changes should be made to the following less files:
 
 All custom javascript should be added to the *main.js* file and any plugins used should be added to the *plugins.js* file.
 
-+-- _dev
-|   +-- _js
-|       +-- _lib
-|       +-- main.js
-|       +-- plugins.js
++-- _dev<br />
+|   +-- _js<br />
+|       +-- _lib<br />
+|       +-- main.js<br />
+|       +-- plugins.js<br />
