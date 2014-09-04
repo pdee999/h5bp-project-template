@@ -9,6 +9,11 @@ This project requires the Grunt CLI
 npm install -g grunt-cli
 ```
 
+To clone the repo:
+```shell
+git clone https://github.com/pdee999/h5bp-project-template.git
+```
+
 To install the project:
 
 ```shell
