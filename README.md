@@ -208,67 +208,36 @@ grunt styleguide
 All work should be done inside of the dev directory.  Any edits made to the build directory will be overridden on the next build.
 
 +-- _dev
-
 |   +-- _css
-
 |   +-- _fonts
-
 |   +-- _img
-
 |   +-- _js
-
 |   +-- _less
-
 |   +-- 404.html
-
 |   +-- apple-touch-icon-precomposed.png
-
 |   +-- crossdomain.xml
-
 |   +-- favicon.ico
-
 |   +-- humans.txt
-
 |   +-- index.html
-
 |   +-- robots.txt
-
 +-- _build
-
 |   +-- _css
-
 |   +-- _fonts
-
 |   +-- _img
-
 |   +-- _js
-
 |   +-- _less
-
 |   +-- 404.html
-
 |   +-- apple-touch-icon-precomposed.png
-
 |   +-- crossdomain.xml
-
 |   +-- favicon.ico
-
 |   +-- humans.txt
-
 |   +-- index.html
-
 |   +-- robots.txt
-
 +-- _node_modules
-
 +-- _vendor
-
 +-- bower.json
-
 +-- Gruntfile.js
-
 +-- package.json
-
 +-- README.md
 
 ==========================================================================
@@ -314,10 +283,9 @@ To use CSS remove the "<!-- build:remove -->" and "<!-- /build -->" comments fro
 All CSS changes should be made to the *main.css* file.
 
 +-- _dev
-
 |   +-- _css
-
 |       +-- main.css
+
 
 ==========================================================================
 
@@ -362,27 +330,16 @@ To use LESS remove the "<!-- build:remove -->" and "<!-- /build -->" comments fr
 All LESS changes should be made to the following less files:
 
 +-- _dev
-
 |   +-- _less
-
 |       +-- desktop.less
-
 |       +-- global.less
-
 |       +-- mixins.less
-
 |       +-- mobile.less
-
 |       +-- mobile-overrides.less
-
 |       +-- print.less
-
 |       +-- retina.less
-
 |       +-- screen.less
-
 |       +-- tablet.less
-
 |       +-- variables.less
 
 ==========================================================================
@@ -392,11 +349,7 @@ All LESS changes should be made to the following less files:
 All custom javascript should be added to the *main.js* file and any plugins used should be added to the *plugins.js* file.
 
 +-- _dev
-
 |   +-- _js
-
 |       +-- _lib
-
 |       +-- main.js
-
 |       +-- plugins.js
