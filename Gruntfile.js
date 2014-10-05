@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         },
 
         lesslint: {
-            src: ['dev/less/desktop.less', 'dev/less/global.less', 'dev/less/mixins.less', 'dev/less/mobile.less', 'dev/less/screen.less', 'dev/less/tablet.less', 'dev/less/variables.less', 'dev/less/mobile-overrides.less', 'dev/less/print.less', 'dev/less/retina.less'],
+            src: ['dev/less/desktop.less', 'dev/less/global.less', 'dev/less/mixins.less', 'dev/less/screens.less', 'dev/less/large-screens.less', 'dev/less/tablet.less', 'dev/less/variables.less', 'dev/less/mobile.less', 'dev/less/print.less', 'dev/less/retina.less'],
             options: {
                 csslint:{
                     'known-properties': false
@@ -207,7 +207,7 @@ module.exports = function(grunt) {
         watch: {
             dev: {
                 files: ['dev/**/*.{html,php}', 'dev/Gruntfile.js', 'dev/js/*.js', 'dev/less/*.less', 'dev/css/*.css'],
-                tasks: ['lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev', 'qunit'],
+                tasks: ['lesslint', 'less', 'autoprefixer', 'csslint', 'jshint:dev'],
                 options: {
                     reload: true,
                     livereload: true
@@ -223,7 +223,7 @@ module.exports = function(grunt) {
             }
         },
 
-        compress: {
+    compress: {
             main: {
                 options: {
                     archive: 'archive.zip'
