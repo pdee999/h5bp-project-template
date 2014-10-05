@@ -1,8 +1,5 @@
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
   /*-------------------------------------------
   DOCUMENT STYLES
@@ -10,9 +7,9 @@
 
   /*Adds five column layout.
 
-      <div class="col-sm-15">Some Content</div>
+  <div class="col-lg-15">Some Content</div>
   */
-  .col-sm-15 {
+  .col-lg-15 {
     width: 20%;
     float: left;
   }
@@ -20,24 +17,24 @@
 
   /*Adds columns of same height.
 
-      <div class="container container-sm-height">
-          <div class="row row-sm-height">
-              <div class="col-sm-6 col-sm-height"></div>
-              <div class="col-sm-3 col-sm-height col-top"></div>
-              <div class="col-sm-2 col-sm-height col-middle"></div>
-              <div class="col-sm-1 col-sm-height col-bottom"></div>
+      <div class="container container-lg-height">
+          <div class="row row-lg-height">
+              <div class="col-lg-6 col-lg-height"></div>
+              <div class="col-lg-3 col-lg-height col-top"></div>
+              <div class="col-lg-2 col-lg-height col-middle"></div>
+              <div class="col-lg-1 col-lg-height col-bottom"></div>
           </div>
       </div>
   */
-  .container-sm-height {
+  .container-lg-height {
     display:table;
     padding-left:0px;
     padding-right:0px;
   }
-  .row-sm-height {
+  .row-lg-height {
     display:table-row;
   }
-  .col-sm-height {
+  .col-lg-height {
     display:table-cell;
     float:none;
   }

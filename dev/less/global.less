@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*-------------------------------------------
+FONTS
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+DOCUMENT STYLES
+-------------------------------------------*/
+/*Adds five column layout.
+
+    <div class="col-xs-15">Some Content</div>
+*/
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+/*------------------------*/
+
+/* Adds columns of same height.  To restrict heights based on viewport width use ".col-sm-height" or ".col-md-height" or ".col-lg-height" replacing xs in the container and in the row classes.
+
+    <div class="container container-xs-height">
+        <div class="row row-xs-height">
+            <div class="col-xs-6 col-xs-height"></div>
+            <div class="col-xs-3 col-xs-height col-top"></div>
+            <div class="col-xs-2 col-xs-height col-middle"></div>
+            <div class="col-xs-1 col-xs-height col-bottom"></div>
+        </div>
+    </div>
+ */
+.container-xs-height {
+  display:table;
+  padding-left:0px;
+  padding-right:0px;
+}
+.row-xs-height {
+  display:table-row;
+}
+.col-xs-height {
+  display:table-cell;
+  float:none;
+}
+/* Align each column by using the classes ".col-top", ".col-middle" or ".col-bottom".
+
+    <div class="container container-sm-height">
+        <div class="row row-sm-height">
+            <div class="col-xs-12 col-sm-6 col-sm-height"></div>
+            <div class="col-xs-6 col-sm-3 col-sm-height col-top"></div>
+            <div class="col-xs-6 col-sm-2 col-sm-height col-middle"></div>
+            <div class="col-xs-6 col-sm-1 col-sm-height col-bottom"></div>
+        </div>
+    </div>
+*/
+.col-top {
+  vertical-align:top;
+}
+.col-middle {
+  vertical-align:middle;
+}
+.col-bottom {
+  vertical-align:bottom;
+}
+/* fix firefox responsive images */
+.img-responsive {
+  width: 100%
+}
+/*------------------------*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -280px; /* Bottom margin must br the negative value of footer height */
+  padding: 0 0 280px; /* Bottom padding must be same height as the footer height */
+}
+
+
+/*-------------------------------------------
+HEADER STYLES
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+NAVIGATION STYLES
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+BODY STYLES
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+FOOTER STYLES
+-------------------------------------------*/
+
+footer {
+  position:relative;
+  z-index:999;
+  height:280px;
+  background: #ccc;
+}
+
+/*-------------------------------------------
+CONTENT STYLES
+-------------------------------------------*/
+
